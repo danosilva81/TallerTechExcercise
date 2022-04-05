@@ -41,6 +41,7 @@ FirstName and LastName as full name, age, orderid, datecreated, MethodOfPurchase
 
 **SOLUTION:**
 
+<pre>
 SELECT 
     cust.FirstName  + '' + cust.LastName as FullName,
     cust.Age,
@@ -53,4 +54,4 @@ FROM
     Customer cust INNER JOIN Orders ord ON cust.PersonID = ord.PersonID INNER JOIN OrdersDetails ordDet ON ord.OrderID = ordDet.OrderID
 WHERE 
     ordDet.ProductID = 1112222333
-
+</pre>
