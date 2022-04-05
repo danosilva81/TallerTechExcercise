@@ -23,5 +23,8 @@ Result: 777777
 
 ## Unit Testing
 
+In the "TallerTechExceicise.Tests" test project there is a theory unit tests to test some cases of the SumReverse function.
+
+
 
 

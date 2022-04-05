@@ -20,8 +20,11 @@ namespace TallerTechExcercise
 
             while (i < len1 || j >= 0) 
             {
-                numStr1 += number1[i];
-                numStr2 += number2[j];
+                if(i<len1)
+                    numStr1 += number1[i];
+                if(j>=0)
+                    numStr2 += number2[j];
+                
                 i++;
                 j--;
             }

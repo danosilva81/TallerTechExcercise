@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerTechExcercise", "TallerTechExcercise\TallerTechExcercise.csproj", "{A8C19246-CF70-4922-AFA4-D1B620961390}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerTechExceicise.Tests", "TallerTechExceicise.Tests\TallerTechExceicise.Tests.csproj", "{8CB57E54-1D39-4C35-B8D5-B186D1C95489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FFA4344-1378-4974-BA9A-E8AC136338F6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{A8C19246-CF70-4922-AFA4-D1B620961390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C19246-CF70-4922-AFA4-D1B620961390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C19246-CF70-4922-AFA4-D1B620961390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB57E54-1D39-4C35-B8D5-B186D1C95489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB57E54-1D39-4C35-B8D5-B186D1C95489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB57E54-1D39-4C35-B8D5-B186D1C95489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB57E54-1D39-4C35-B8D5-B186D1C95489}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
