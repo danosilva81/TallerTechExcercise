@@ -28,7 +28,7 @@ In the "TallerTechExceicise.Tests" test project there is a theory unit tests to 
 
 ## DATABASE Excercise
 
-**Excercise:
+Excercise:
 You have three different tables
 A Customer Table with FirstName, LastName, Age, Occupation, MartialStatus, PersonID
 
@@ -39,18 +39,6 @@ An Orders Details table with OrderID, OrderDetailID, ProductNumber, ProductID, P
 Please return a result of the customers who ordered product ID = 1112222333 and return
 FirstName and LastName as full name, age, orderid, datecreated, MethodOfPurchase as Purchase Method, ProductNumber and ProductOrigin
 
-**SOLUTION:
+SOLUTION:
 
-SELECT 
-    cust.FirstName  + '' + cust.LastName as FullName,
-    cust.Age,
-    ord.OrderID,
-    ord.DateCreated,
-    ord.MethodofPurchase as 'Purchase Method',
-    ordDet.ProductNumber,
-    ordDet.ProductOrigin
-FROM 
-    Customer cust INNER JOIN Orders ord ON cust.PersonID = ord.PersonID INNER JOIN OrdersDetails ordDet ON ord.OrderID = ordDet.OrderID
-WHERE 
-    ordDet.ProductID = 1112222333
 
