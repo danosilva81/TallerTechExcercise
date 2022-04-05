@@ -1,4 +1,4 @@
-# Investors Chat App	
+# TallerTechExcercise	
 This is a console application to show a function called SumReverse. 
 
 It was did it as a test exercise by [Software Engineer Daniel Silva Jiménez](https://www.linkedin.com/in/daniel-silva-jim%C3%A9nez-12871653)

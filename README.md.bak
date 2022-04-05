@@ -1,28 +1,27 @@
 # Investors Chat App	
-This is a web application to access a Chat Rooms. Users can register and logged in, to chat with other logged users and also asks of stock values through the same chat.
+This is a console application to show a function called SumReverse. 
 
 It was did it as a test exercise by [Software Engineer Daniel Silva Jiménez](https://www.linkedin.com/in/daniel-silva-jim%C3%A9nez-12871653)
 
-## Main Functions
+## Function SumReverse
 
-* Allow users to register.
-* Allow registered users to log in and talk with other users in a chatroom.
-* Allow registered users to select a chat room.
-* Allow users to post messages as commands into the chatroom with the following format /stock=stock_code. In this case a bot will query for this quoute value in https://stooq.com/ 
-and will put the result value in the corresopnding chat room.
-* Have the chat messages ordered by their timestamps and show only the last 50 messages (this value can be changed in the controller). 
+You are given two arbitrarily large numbers, stored one digit at a time in an array.
+The first must be added to the second, and the second must be reversed before addition.
 
-## How to Run it
+The goal is to calculate the sum of those two sets of values.
 
-To run the application is needed an "Update-Database" in the "Package Manager Console" to create the database with tables to be able to have register and log in process 
-with the .NET Identity mechanism.
+IMPORTANT NOTE:
+- The input can be any length (i.e: it can be 20+ digits long).
+- num1 and num2 can be different lengths.
 
-## Disclaimer
+Sample Inputs:
+num1 = 123456
+num2 = 123456
 
-I did not use a message broker like RabbitMQ, because I think it is not necessary to have the app working properly, at least in the way I did it.
-
+Sample Output:
+Result: 777777
 
 ## Unit Testing
 
-In the InvertersChatApp.Tests project you can find unit tests for some of the main functions.
+
 
