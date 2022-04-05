@@ -1,7 +1,7 @@
 # TallerTechExcercise	
 This is a console application to show a function called SumReverse. 
 
-It was did it as a test exercise by [Software Engineer Daniel Silva Jiménez](https://www.linkedin.com/in/daniel-silva-jim%C3%A9nez-12871653)
+It was did it as a test exercise by [Software Engineer Daniel Silva JimÃ©nez](https://www.linkedin.com/in/daniel-silva-jim%C3%A9nez-12871653)
 
 ## Function SumReverse
 
@@ -28,7 +28,7 @@ In the "TallerTechExceicise.Tests" test project there is a theory unit tests to 
 
 ## DATABASE Excercise
 
-**Excercise:
+**Excercise:**
 You have three different tables
 A Customer Table with FirstName, LastName, Age, Occupation, MartialStatus, PersonID
 
@@ -39,7 +39,7 @@ An Orders Details table with OrderID, OrderDetailID, ProductNumber, ProductID, P
 Please return a result of the customers who ordered product ID = 1112222333 and return
 FirstName and LastName as full name, age, orderid, datecreated, MethodOfPurchase as Purchase Method, ProductNumber and ProductOrigin
 
-**SOLUTION:
+**SOLUTION:**
 
 SELECT 
     cust.FirstName  + '' + cust.LastName as FullName,
